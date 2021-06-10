@@ -1,0 +1,56 @@
+/* OH MY FOOD CSS */
+
+/* ---------- Les couleurs du site ---------- */
+:root {
+    --color-primaire:#9356DC;
+    --color-secondaire:#FF79DA;
+    --color-tertiaire:#99E2D0;
+}
+
+/* ---------- La police du site ---------- */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Shrikhand', cursive;
+}
+
+/* ---------- Les liens ---------- */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a {
+    color: white;
+}
+
+/* ---------- Les images ---------- */
+
+/* ---------- Header ---------- */
+header {
+    display: flex;
+    justify-content: center;
+}
+
+/* ---------- Footer ---------- */
+footer {
+    background-color: black;
+    color: white;
+    padding: 1em;
+}
+
+footer h1, ul {
+    padding-left: 1em;
+}
+
+li {
+    list-style: none;
+}
+
+footer span {
+    width: 1em;
+    padding-right: 0.5em;
+}
