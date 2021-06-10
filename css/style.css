@@ -42,15 +42,16 @@ footer {
     padding: 1em;
 }
 
-footer h1, ul {
-    padding-left: 1em;
+footer h1, .svg-inline--fa.fa-w-13, .svg-inline--fa.fa-w-20  {
+    font-size: 1em;
+    width: 1em;
 }
 
 li {
     list-style: none;
+    padding-bottom: 0.5em;
 }
 
-footer span {
-    width: 1em;
-    padding-right: 0.5em;
+ul {
+    padding: 0;
 }
