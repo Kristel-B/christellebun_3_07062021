@@ -1,0 +1,13 @@
+/* ---------- Boutons ---------- */
+.btn {
+    margin: 1em;
+    background: linear-gradient($color-secondaire , $color-primaire);
+    height: 3em ;
+    width: 15em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    color: white;
+    box-shadow: 0px 10px 10px 0px #eaeaea;
+}

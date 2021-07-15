@@ -1,0 +1,34 @@
+/* ---------- La police du site ---------- */
+body {
+    font-family: $font-body;
+    margin: 0;
+    min-width: 254px;
+}
+
+h1 {
+    font-size: 1.5em;
+    padding: 0 1em;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+h3 {
+    font-family: $font-title;
+    font-weight: normal;
+}
+
+p {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 0.5em;
+}
+
+ul {
+    padding: 0;
+}
