@@ -1,6 +1,5 @@
 /* ---------- Utils ---------- */
 @import "./utils/variables";
-@import "./utils/functions";
 @import "./utils/mixins";
 
 /* ---------- Base ---------- */
@@ -14,13 +13,9 @@
 /* ---------- Component ---------- */
 
 @import "./component/button";
-@import "./component/card";
 @import "./component/img";
 @import "./component/icon";
 
 /* ---------- Pages ---------- */
 @import "./pages/home";
 @import "./pages/menu"
-/* ---------- Themes ---------- */
-
-/* ---------- Vendors ---------- */

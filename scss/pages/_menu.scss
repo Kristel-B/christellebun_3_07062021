@@ -1,0 +1,26 @@
+.menu {
+    background-color: $background-section;
+    border-radius: 2em 2em 0 0;
+    padding: 1em;
+    position: relative;
+    z-index: 2;
+        &_title{
+            text-transform: uppercase;
+    }
+}
+
+.menu_list {
+    background-color: $card-color;
+    border-radius: 1em;
+    padding: 1em;
+    @include box-shadow;
+}
+
+.dish_name {
+    padding-bottom: 0.5em;
+}
+
+.dish_price {
+    font-weight: bold;
+    float: right;
+}
